@@ -1,23 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @aldikaltim Sign out
-0
-🔖 Release-only subscription
-You can now limit a repository's notifications exclusively to releases. Use it to follow your favorite repositories!
-
-0 0 bambuseribu/gojek
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-gojek/bot.php
-c1843cf  4 days ago
-@bambuseribu bambuseribu Create bot.php
-     
-77 lines (68 sloc)  3.12 KB
 <?php
 	function curl($api,$post,$cookie,$header =  false,$httpheaders = null){
 		$ch = curl_init();
@@ -86,16 +66,3 @@ if(@json_decode($setpinn)->success == "false"){
 	echo "\n".json_decode($setpinn)->message."";
 }
 ?>	
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
